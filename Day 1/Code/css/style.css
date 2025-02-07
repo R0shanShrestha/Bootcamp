@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.headingFont {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar {
+  padding: 30px;
+}
+
+.herosection {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headbars {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  line-height: 50px;
+  gap: 15px;
+}
+
+.headbars h1 {
+  font-size: 50px;
+  font-weight: bold;
+  /* border: 1px solid; */
+}
+.headbars p {
+  line-height: 20px;
+  font-size: 16px;
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  /* color: rgb(30, 30, 30); */
+  background: #111111;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+
+.sideimg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+.sideimg img {
+  width: 500px;
+  border-radius: 10px;
+}
+/* recepie sec */
+
+.recepieSection {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+  gap: 10px;
+}
+.recphead {
+  /* border: 1px solid; */
+  width: 100%;
+  /* border: 1px solid; */
+  padding: 20px;
+  margin-top: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.ingredients {
+  width: 100%;
+  display: flex;
+  /* border: 1px solid; */
+  padding: 5px;
+}
+
+.ingredients .infos {
+  /* padding-left: 20px; */
+  font-size: 18px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ ul, ol {
+  padding-left: 30px;
+  /* border: 1px solid; */
+}
+
+
+
+.instruction {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+.instruction .infos {
+  font-size: 18px;
+  /* border: 1px solid; */
+  width: 40%;
+}
+
+/* linksOfIngred */
+
+.linksOfIngred {
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  /* border: 1px solid; */
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-radius: 10px;
+  /* box-shadow: 2px 2px 20px 0.5px black; */
+  overflow: hidden;
+  width: 200px;
+  /* border: 1px solid; */
+  padding: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card .desc {
+  /* border: 1px solid; */
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buybtn {
+  width: 100%;
+  cursor: pointer;
+  height: 40px;
+
+  border-radius: 8px;
+  font-weight: 500;
+  /* background: #000; */
+  /* border: 1px solid; */
+  outline: none;
+  border: none;
+  background: #000;
+  color: white;
+}
+
+.buybtn:hover {
+  background: #2e2b2b;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
