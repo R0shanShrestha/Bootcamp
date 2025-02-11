@@ -24,6 +24,7 @@
 
 .herosection {
   /* border: 1px solid; */
+  padding-left: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
